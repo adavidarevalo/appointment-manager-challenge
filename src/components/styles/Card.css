@@ -1,0 +1,47 @@
+.card__container{
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin: 0 auto;
+}
+.card__container > h2{
+  color:#333;
+  text-align: center;
+}
+
+
+.card__block{
+  background:#fff;
+  max-width: 350px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  box-shadow: 2px 3px 4px 0px #444;
+  margin-block: 25px;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  } 
+.card__block-data{
+  font-weight: 500;
+}
+.card__title{
+  color: #fff;
+}
+.card__block-data > span{
+  font-weight: 400;
+}
+.card__block-button{
+  background: #1c9ec9;
+  border: none;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 3px;
+}
+.card__block-centerB{
+  display: flex;
+  justify-content: center;
+}

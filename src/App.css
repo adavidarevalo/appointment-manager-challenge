@@ -1,0 +1,18 @@
+.app__container{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.app_title{
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  padding: 19px;
+}
+@media (min-width: 1000px) {
+  .app__container{
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+}
